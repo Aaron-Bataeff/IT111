@@ -1,0 +1,16 @@
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\bin\Debug\net8.0-windows\Basic To Do App.exe
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\bin\Debug\net8.0-windows\Basic To Do App.deps.json
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\bin\Debug\net8.0-windows\Basic To Do App.runtimeconfig.json
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\bin\Debug\net8.0-windows\Basic To Do App.dll
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\bin\Debug\net8.0-windows\Basic To Do App.pdb
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic_Todo_App.Form1.resources
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.csproj.GenerateResource.cache
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.AssemblyInfoInputs.cache
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.AssemblyInfo.cs
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.csproj.CoreCompileInputs.cache
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.dll
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\refint\Basic To Do App.dll
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.pdb
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\Basic To Do App.genruntimeconfig.cache
+C:\Users\there\Documents\IT 111\Basic Todo App\Basic Todo App\obj\Debug\net8.0-windows\ref\Basic To Do App.dll
