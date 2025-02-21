@@ -2,15 +2,17 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DateTimePicker dtpDueDate;
+        private System.Windows.Forms.TextBox txtTask;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelTasks;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,152 +24,121 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
-            dtpDueDate = new DateTimePicker();
-            txtTask = new TextBox();
-            label2 = new Label();
-            label1 = new Label();
-            btnClear = new Button();
-            btnAdd = new Button();
-            lstTasks = new ListBox();
-            label3 = new Label();
-            lblDoubleClicktoMarkaTaskasCompleted = new Label();
-            groupBox1.SuspendLayout();
-            SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpDueDate = new System.Windows.Forms.DateTimePicker();
+            this.txtTask = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.flowLayoutPanelTasks = new System.Windows.Forms.FlowLayoutPanel();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(dtpDueDate);
-            groupBox1.Controls.Add(txtTask);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(btnClear);
-            groupBox1.Controls.Add(btnAdd);
-            groupBox1.Location = new Point(12, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(360, 130);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Create Task";
+            this.groupBox1.Controls.Add(this.dtpDueDate);
+            this.groupBox1.Controls.Add(this.txtTask);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.btnClear);
+            this.groupBox1.Controls.Add(this.btnAdd);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(360, 130);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Task Form";
             // 
             // dtpDueDate
             // 
-            dtpDueDate.Location = new Point(70, 56);
-            dtpDueDate.Name = "dtpDueDate";
-            dtpDueDate.Size = new Size(270, 23);
-            dtpDueDate.TabIndex = 2;
-            dtpDueDate.ValueChanged += dtpDueDate_ValueChanged;
+            this.dtpDueDate.Location = new System.Drawing.Point(70, 56);
+            this.dtpDueDate.Name = "dtpDueDate";
+            this.dtpDueDate.Size = new System.Drawing.Size(270, 23);
+            this.dtpDueDate.TabIndex = 2;
             // 
             // txtTask
             // 
-            txtTask.Location = new Point(70, 27);
-            txtTask.Name = "txtTask";
-            txtTask.Size = new Size(270, 23);
-            txtTask.TabIndex = 1;
-            txtTask.TextChanged += textBox1_TextChanged;
+            this.txtTask.Location = new System.Drawing.Point(70, 27);
+            this.txtTask.Name = "txtTask";
+            this.txtTask.Size = new System.Drawing.Size(270, 23);
+            this.txtTask.TabIndex = 1;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(10, 61);
-            label2.Name = "label2";
-            label2.Size = new Size(55, 15);
-            label2.TabIndex = 3;
-            label2.Text = "Due Date";
-            label2.Click += label2_Click;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 15);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Due Date";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(10, 30);
-            label1.Name = "label1";
-            label1.Size = new Size(29, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Task";
-            label1.Click += label1_Click;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(10, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Task";
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(265, 90);
-            btnClear.Name = "btnClear";
-            btnClear.Size = new Size(75, 23);
-            btnClear.TabIndex = 4;
-            btnClear.Text = "Clear";
-            btnClear.UseVisualStyleBackColor = true;
-            btnClear.Click += button1_Click;
+            this.btnClear.Location = new System.Drawing.Point(265, 90);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 4;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(180, 90);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
-            btnAdd.TabIndex = 3;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click;
-            // 
-            // lstTasks
-            // 
-            lstTasks.FormattingEnabled = true;
-            lstTasks.ItemHeight = 15;
-            lstTasks.Location = new Point(12, 175);
-            lstTasks.Name = "lstTasks";
-            lstTasks.Size = new Size(360, 184);
-            lstTasks.TabIndex = 5;
-            lstTasks.DoubleClick += lstTasks_DoubleClick;
+            this.btnAdd.Location = new System.Drawing.Point(180, 90);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 3;
+            this.btnAdd.Text = "Add Todo";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(12, 157);
-            label3.Name = "label3";
-            label3.Size = new Size(65, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Tasks to do";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 157);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Task List";
             // 
-            // lblDoubleClicktoMarkaTaskasCompleted
+            // flowLayoutPanelTasks
             // 
-            lblDoubleClicktoMarkaTaskasCompleted.AutoSize = true;
-            lblDoubleClicktoMarkaTaskasCompleted.Location = new Point(144, 157);
-            lblDoubleClicktoMarkaTaskasCompleted.Name = "lblDoubleClicktoMarkaTaskasCompleted";
-            lblDoubleClicktoMarkaTaskasCompleted.Size = new Size(228, 15);
-            lblDoubleClicktoMarkaTaskasCompleted.TabIndex = 7;
-            lblDoubleClicktoMarkaTaskasCompleted.Text = "Double Click to Mark a Task as Completed";
+            this.flowLayoutPanelTasks.Location = new System.Drawing.Point(12, 175);
+            this.flowLayoutPanelTasks.Name = "flowLayoutPanelTasks";
+            this.flowLayoutPanelTasks.Size = new System.Drawing.Size(360, 250);
+            this.flowLayoutPanelTasks.AutoScroll = true;
+            this.flowLayoutPanelTasks.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanelTasks.WrapContents = false;
+            this.Controls.Add(this.flowLayoutPanelTasks);
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(384, 361);
-            Controls.Add(lblDoubleClicktoMarkaTaskasCompleted);
-            Controls.Add(label3);
-            Controls.Add(lstTasks);
-            Controls.Add(groupBox1);
-            Name = "Form1";
-            Text = "To-Do App";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(384, 461);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "To-Do App";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dtpDueDate;
-        private System.Windows.Forms.TextBox txtTask;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.ListBox lstTasks;
-        private System.Windows.Forms.Label label3;
-        private Label lblDoubleClicktoMarkaTaskasCompleted;
     }
 }

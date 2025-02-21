@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\there\\Documents\\IT 111\\Basic Todo App\\Basic Todo App\\Basic To Do App.csproj",
+      "projectUniqueName": "C:\\Users\\there\\Documents\\IT 111\\Basic To Do App\\Basic Todo App\\Basic To Do App.csproj",
       "projectName": "Basic To Do App",
-      "projectPath": "C:\\Users\\there\\Documents\\IT 111\\Basic Todo App\\Basic Todo App\\Basic To Do App.csproj",
+      "projectPath": "C:\\Users\\there\\Documents\\IT 111\\Basic To Do App\\Basic Todo App\\Basic To Do App.csproj",
       "packagesPath": "C:\\Users\\there\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\there\\Documents\\IT 111\\Basic Todo App\\Basic Todo App\\obj\\",
+      "outputPath": "C:\\Users\\there\\Documents\\IT 111\\Basic To Do App\\Basic Todo App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\there\\AppData\\Roaming\\NuGet\\NuGet.Config",

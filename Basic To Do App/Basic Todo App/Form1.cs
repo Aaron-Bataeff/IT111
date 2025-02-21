@@ -7,8 +7,6 @@ namespace Basic_Todo_App
 {
     public partial class Form1 : Form
     {
-        private List<TaskItem> tasks = new List<TaskItem>();
-
         public Form1()
         {
             InitializeComponent();
@@ -19,25 +17,30 @@ namespace Basic_Todo_App
             string taskName = txtTask.Text.Trim();
             DateTime dueDate = dtpDueDate.Value;
 
-            // Validate task name
             if (string.IsNullOrEmpty(taskName))
             {
                 MessageBox.Show("Task name cannot be empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Add the new task to the list
-            TaskItem newTask = new TaskItem
+            // Create a new TodoItem
+            TodoItem newTask = new TodoItem(taskName, dueDate);
+            newTask.TaskCompleted += TodoItem_TaskCompleted;
+
+            // Insert it in sorted order inside flowLayoutPanelTasks
+            List<TodoItem> sortedTasks = flowLayoutPanelTasks.Controls.OfType<TodoItem>()
+                .Concat(new[] { newTask }) // Add new task to the existing list
+                .OrderBy(task => task.DueDate) // Sort by DueDate
+                .ToList();
+
+            // Clear and re-add sorted tasks
+            flowLayoutPanelTasks.Controls.Clear();
+            foreach (var task in sortedTasks)
             {
-                Task = taskName,
-                DueDate = dueDate,
-                IsCompleted = false
-            };
+                flowLayoutPanelTasks.Controls.Add(task);
+            }
 
-            tasks.Add(newTask);
-            UpdateTaskList();
-
-            // Clear the form inputs
+            // Clear input fields
             txtTask.Clear();
             dtpDueDate.Value = DateTime.Now;
         }
@@ -48,64 +51,14 @@ namespace Basic_Todo_App
             dtpDueDate.Value = DateTime.Now;
         }
 
-        private void lstTasks_DoubleClick(object sender, EventArgs e)
+        private void TodoItem_TaskCompleted(object sender, EventArgs e)
         {
-            if (lstTasks.SelectedIndex != -1)
+            TodoItem todoItem = sender as TodoItem;
+            if (todoItem != null)
             {
-                // Get the selected task
-                TaskItem selectedTask = tasks[lstTasks.SelectedIndex];
-
-                // Mark the task as completed
-                selectedTask.IsCompleted = true;
-
-                // Show a completion message
-                MessageBox.Show($"Task '{selectedTask.Task}' marked as completed!", "Task Completed", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Update the task list to reflect changes
-                UpdateTaskList();
+                flowLayoutPanelTasks.Controls.Remove(todoItem);
+                todoItem.Dispose();
             }
-        }
-
-        private void UpdateTaskList()
-        {
-            // Sort tasks: incomplete tasks first, then by due date
-            tasks = tasks
-                .OrderBy(t => t.IsCompleted)
-                .ThenBy(t => t.DueDate)
-                .ToList();
-
-            // Clear and repopulate the ListBox
-            lstTasks.Items.Clear();
-
-            foreach (TaskItem task in tasks)
-            {
-                lstTasks.Items.Add(task.ToString());
-            }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            // Handle text changes here if needed
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            // Handle label click here if needed
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            // Handle label click here if needed
-        }
-
-        private void dtpDueDate_ValueChanged(object sender, EventArgs e)
-        {
-            // Handle date picker value change if needed
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-            // Handle label click here if needed
         }
     }
 }
