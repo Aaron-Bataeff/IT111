@@ -1,0 +1,21 @@
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\CustomerManagementSystem.FormCustomer.resources
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\CustomerManagementSystem.FormMain.resources
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\CustomerManagementSystem.FormCustomer.cs.resources
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\CustomerManagementSystem.FormMain.cs.resources
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.csproj.GenerateResource.cache
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.AssemblyInfoInputs.cache
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.AssemblyInfo.cs
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.csproj.CoreCompileInputs.cache
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\Customer App.exe
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\Customer App.deps.json
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\Customer App.runtimeconfig.json
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\Customer App.dll
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\Customer App.pdb
+C:\Users\there\source\repos\Customer App\Customer App\bin\Debug\net8.0-windows\cs\Customer App.resources.dll
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\cs\Customer App.resources.dll
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.dll
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\refint\Customer App.dll
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.pdb
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\Customer App.genruntimeconfig.cache
+C:\Users\there\source\repos\Customer App\Customer App\obj\Debug\net8.0-windows\ref\Customer App.dll
